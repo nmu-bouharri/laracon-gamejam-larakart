@@ -1,0 +1,12 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.json",
+  "compilerOptions": {
+      /* Ziggy Setup */
+      "paths": {
+          "ziggy-js": ["./vendor/tightenco/ziggy"],
+          "@/*": ["./resources/js/*"]
+      },
+      "types": ["vite/client"]
+  },
+  "include": ["resources/**/*.ts", "resources/**/*.vue"]
+}
