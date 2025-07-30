@@ -49,12 +49,6 @@ const startQuickRace = () => {
       <!-- Multiplayer removed - focusing on AI racing -->
         
       <!-- Quick Race for Testing -->
-      <button
-        @click="startQuickRace"
-        class="w-full bg-green-600 hover:bg-green-500 text-white py-4 px-8 rounded-xl font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-lg border-2 border-green-400"
-      >
-        ⚡ Quick Race (Testing)
-      </button>
     </div>
   </div>
 </template>
