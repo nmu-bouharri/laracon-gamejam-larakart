@@ -1060,7 +1060,7 @@ onMounted(() => {
           {{ raceTime < 1 ? 'GO!' : 'READY' }}
         </div>
         <div class="text-2xl text-gray-300">
-          Use arrow keys to drive
+          Use WASD to drive
         </div>
       </div>
     </div>
