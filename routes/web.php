@@ -44,8 +44,3 @@ Route::prefix('api')->group(function () {
         Route::post('/{race}/position', [RaceController::class, 'updatePosition']);
     });
 });
-
-// Catch-all route - must be last
-Route::get('/{any}', function () {
-    return Inertia::render('App');
-})->where('any', '.*');
